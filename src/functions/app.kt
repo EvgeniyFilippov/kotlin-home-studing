@@ -7,6 +7,10 @@ fun main() {
     fun sum(a: Int, b: Int) : Int {
         return a + b
     }
-
     println(sum(a, b))
+
+    fun sayHello() {
+        println("Hello")
+    }
+    sayHello()
 }
